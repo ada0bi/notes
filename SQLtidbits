@@ -1,0 +1,5 @@
+--Oracle sql
+--TRUNC(timestamp_column, 'DD') would return "YYYY-MM-DD-00-00-00"
+--TRUNC(timestamp_column, 'MM') would return "YYYY-MM-00-00-00-00"
+--SUBSTR((TRUNC(timestamp_column, 'DD')),1,10) would return DD-MMM-YY (e.g 13-Nov-19)
+--TO_CHAR("START_TIMESTAMP",'YYYY-MM-DD') would return "YYYY-MM-DD' 
